@@ -15,4 +15,4 @@ A responsive web application displaying daily prayer and Iqamah times across Sau
 
 ## 🌐 Live Demo
 Experience the live application here:
-[View Live Demo](https://<your-username>.github.io/<your-repo-name>/)
+[View Live Demo](https://ahmad-s211.github.io/prayer-times-sa/)
