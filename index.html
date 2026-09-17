@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مواقيت الصلاة</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <div id="nav">
+                <h2>مواقيت الصلاة</h2>
+                <h6>﴿ إِنَّ الصَّلاةَ كانَت عَلَى المُؤمِنينَ كِتابًا مَوقوتًا ﴾</h6>
+                <span class="material-symbols-rounded">
+                    prayer_times
+                </span>
+            </div>
+            <div id="current-info">
+                <h4 id="date"></h4>
+                <h4 id="day"></h4>
+                <select id="cities">
+                    <option value="Riyadh">الرياض</option>
+                    <option value="Jeddah">جدة</option>
+                    <option value="Makkah">مكة المكرمة</option>
+                    <option value="Madinah">المدينة المنورة</option>
+                    <option value="Dammam">الدمام</option>
+                </select>
+            </div>
+            <table id="prayers">
+                
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
